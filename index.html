@@ -5,16 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAT problem</title>
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/Tran-Thu-Le/sat_problem/main/style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Tran-Thu-Le/sat_problem/main/style.css">
 </head>
     <body>
-        <div id="gameContainer">
+        <div id="gameContainer" class="text">
             <h1>SAT problem</h1>
             <p>Click on blue-cells until yello-cell equals to 1. Then you win!</p>
             <div id="cellContainer"></div>
-            <h2 id="statusText"></h2>
-            <button id="restartGameButton">Restart Game</button>
         </div>
-        <script src="https://raw.githubusercontent.com/Tran-Thu-Le/sat_problem/main/code.js"></script>
+        <div class="text">
+            <h2>Settings:</h2>
+            <button id="restartGameButton">Restart Game</button>
+            <h2>Discriptions:</h2>
+            <ul>
+                <li>Author: <a href="https://tranthule.blogspot.com/p/about-me.html">Tran Thu Le</a></li>
+                <li>Version: 0.0.1</li>
+                <li>Idea: This simple game is based on <a href="https://en.wikipedia.org/wiki/Boolean_satisfiability_problem">SAT problem</a></li>
+                <li>Note: Create new game by reloading page. Back to initial setup by clicking on Restart Game</li>
+            </ul>
+        </div>
+
+
+        <script defer src="https://cdn.rawgit.com/Tran-Thu-Le/sat_problem/main/code.js"></script>
     </body>
 </html>

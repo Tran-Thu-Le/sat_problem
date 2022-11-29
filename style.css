@@ -1,16 +1,18 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Itim', cursive;
-}
 #gameContainer{
     font-family: "Permanent Marker", cursive;
-    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* margin-bottom: "50px"; */
 }
 #cellContainer{
     display: grid;
     /* grid-template-columns: repeat(5, auto);
     width: 500px; */
+    /* margin: auto; */
+}
+.text {
+    font-family: 'Itim', cursive;
+    /* text-align: center; */
     margin: auto;
 }
 .cell{
@@ -39,4 +41,7 @@
 }
 .minus{
     background-color: rgb(3, 110, 110);
+}
+#restartGameButton {
+    margin-top: "50px";
 }
